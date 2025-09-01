@@ -1,5 +1,5 @@
-// util function that computes the Fibonacci numbers
-export function fibonacci(n: number): number {
+// util function that computes the fibonacci numbers
+export function fibonacci(n: number): number{
   if (n < 0) {
     return -1;
   } else if (n === 0) {
@@ -10,3 +10,4 @@ export function fibonacci(n: number): number {
 
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
+
